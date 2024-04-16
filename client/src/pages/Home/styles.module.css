@@ -1,0 +1,25 @@
+.home {
+  height: 80px;
+  background-color: rgb(10, 23, 141);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+.home ul li a {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #cecdcd;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #cecdcd;
+  transition: 0.3s;
+}
+.home ul li a:hover {
+  border: 1px solid #fff;
+  color: #fff;
+}
